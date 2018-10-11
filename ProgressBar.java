@@ -2,13 +2,7 @@ import java.io.File;
 
 class ProgressBar
 {
-    public static void main(String[] args) {
-        File file = new File("D:\\WorkDir\\CloudBuild\\src\\Android\\mobile\\DemoProj_348.apk");
-        file.mkdirs();
-    }
-
-   public static void main2(String[] args) throws InterruptedException {
-      
+    public static void main(String[] args) throws InterruptedException {  
         String progressBar = "[          ]";
         int countDown = 10;
         try
